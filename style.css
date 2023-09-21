@@ -1,11 +1,16 @@
+body {
+    margin: 0 auto;
+}
+
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: purple;
+    background-color: lightpink;
 }
 
 .peach {
     color: peachpuff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .ziti {
@@ -15,10 +20,23 @@ h1 {
 
 .pizza {
     color: orangered;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
     color: blueviolet;
     font-size: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 10px green;
+    background-color: powderblue;
+}
+
+p {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+li {
+    padding: 1px;
 }
